@@ -1,1 +1,22 @@
+# 📌 Fichiers sensibles (clés API, sessions)
 config.json
+bot.session
+
+# 📌 Fichiers système inutiles
+.cache/
+.env
+.ssh/
+storage/
+.wget-hsts
+.lesshst
+.python_history
+.bash_history
+
+# 📌 Fichiers de logs et temporaires
+*.log
+*.tmp
+
+# 📌 Fichiers spécifiques à Termux
+downloads/
+solana-arm64.tar.bz2
+jupiter-python.zipconfig.json
