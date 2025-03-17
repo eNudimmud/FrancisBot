@@ -1,3 +1,5 @@
+import nest_asyncio
+nest_asyncio.apply()
 import asyncio
 import json
 import random
@@ -5,6 +7,27 @@ import nest_asyncio
 import ephem
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
+import subprocess
+from telegram.ext import CommandHandler
+
+import nest_asyncio
+nest_asyncio.apply()
+import asyncio
+import json
+import random
+import ephem
+from telegram import Update
+from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
+import subprocess
+
+async def sniper(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("🚀 Lancement du sniper...")
+
+    try:
+        process = subprocess.Popen(["python3", "sniper.py"])
+        await update.message.reply_text("🔍 Sniper lancé avec succès !")
+    except Exception as e:
+        await update.message.reply_text(f"❌ Erreur: {str(e)}")
 
 # Évite les conflits d'event loop sous Termux
 nest_asyncio.apply()
@@ -181,6 +204,7 @@ async def main():
     app.add_handler(CommandHandler("bots", bots))
     app.add_handler(CommandHandler("lune", lune))
     app.add_handler(CommandHandler("milk", milk))
+    app.add_handler(CommandHandler("sniper", sniper))
     app.add_handler(CommandHandler("conseil", conseil))
    
  # Réponses interactives
