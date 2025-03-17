@@ -199,7 +199,7 @@ async def main():
     app.add_handler(CommandHandler("help", help_command))
     app.add_handler(CommandHandler("trading", trading))
     app.add_handler(CommandHandler("degen", degen))
-    app.add_handler(CommandHandler("risques", trading))
+    app.add_handler(CommandHandler("risques", risques))
     app.add_handler(CommandHandler("scam", scam))
     app.add_handler(CommandHandler("bots", bots))
     app.add_handler(CommandHandler("lune", lune))
