@@ -1,20 +1,25 @@
-# FrancisBot
+# Livre blanc $MILK
 
-Dans un marché sauvage où les loups rôdent, Francis, fermier aguerri du canton de Vaud, veille sur ses bêtes. Avec $wissMilk ($MILK), il transforme chaque opportunité en récolte abondante, optimisant le trading pour ceux qui savent patienter. $MILK, c’est l’or blanc du trading décentralisé, créé par [eNudimmud](https://github.com/eNudimmud). Déjà accessible à l’achat, $MILK prépare l’arrivée de $CHEESE et des NFT Highland !
+## Introduction
+Dans un marché sauvage où les loups rôdent et où la communauté francophone est souvent laissée à l’abandon, Francis, fermier aguerri et gardien de son étable, veille sur ses bêtes. Ici, pas question de se faire traire par les arnaqueurs et les traders véreux ! Avec $wissMilk, le fruit d’un dur labeur, Francis transforme chaque opportunité en récolte abondante, optimisant le trading pour ceux qui savent patienter et récolter à maturité.
 
-## Fonctionnalités
-- Conseils crypto : `/trading`, `/degen`, `/risques`, etc.
-- Prix en temps réel : `/prix <symbole>` (ex. `/prix BTC`)
-- Portefeuille simulé : `/portefeuille` (ajouter, voir, stats, etc.)
-- $MILK & $CHEESE : Gagnez et stackez avec `/milk`, `/stack`
-- Bonus : `/lune`, `/nft`
+$SWISSMILK ($MILK) est plus qu’un token : c’est l’or blanc du trading décentralisé, déjà accessible à l’achat pour ceux qui veulent rejoindre l’étable de Francis. Son utilité est simulée dans FrancisBot jusqu’à l’activation du stacking et des services payants, mais bientôt, $MILK et $CHEESE ouvriront les portes d’un écosystème riche avec les NFT Highland.
+
+## Problème et solution
+Les débutants en crypto risquent des pertes faute d’entraînement. FrancisBot propose un champ simulé où vous utilisez $MILK pour apprendre, sans risques. Grâce à son bot intelligent, Francis surveille les tendances, repère les bonnes affaires, et protège ses éleveurs contre les scams.
 
 ## Communauté et valeurs
-Nous sommes une famille ! Rejoignez notre communauté florissante $wissMilk, où chacun s’entraide. Conçu avec la précision suisse, $MILK garantit sécurité et performance, respectant les réglementations de la FINMA.
+Nous sommes bien plus qu’un simple token, nous sommes une famille ! Rejoignez notre communauté florissante $wissMilk, où chacun s’entraide pour atteindre de nouveaux sommets. Dans l’étable de Francis, chacun a sa place : les veaux qui apprennent, les vaches qui produisent, et les taureaux prêts à charger le marché. Ici, on ne suit pas aveuglément la foule, on bâtit une stratégie, on s’entraide et on optimise chaque goutte de $MILK pour en tirer le meilleur rendement.
+
+Conçu avec précision et soutenu par une équipe suisse dévouée, le token $MILK garantit une sécurité et des performances de premier ordre pour assurer la protection de votre investissement, tout en respectant les réglementations de la FINMA.
 
 ## Tokenomics
 - **Total Supply** : 1,000,000,000 $MILK
-- **Taxes** : Achat 0%, Vente 3% (1% burn, 2% liquidité), Transfert 0%, Services 0-1%
+- **Taxes** :
+  - Achat : 0%
+  - Vente : 3% (1% burn, 2% liquidité)
+  - Transfert : 0%
+  - Services : 0% - 1%
 - **Distribution** :
   - 40% (400M) : Écosystème et récompenses
   - 25% (250M) : Lancement et liquidité
@@ -25,35 +30,38 @@ Nous sommes une famille ! Rejoignez notre communauté florissante $wissMilk, où
 - **Liquidité** : 100% bloquée sur 12 mois (renouvelable par DAO)
 
 ## Roadmap
-- **Q2 2025** : FrancisBot v1, utilisation simulée $MILK (déjà accessible) 🌱
-- **Q3 2025** : Stacking officiel, services payants, airdrop $MILK 🚜
-- **Q4 2025** : NFT Highland, lancement $CHEESE, concours "Top Fermiers" 🌾
-- **Q1 2026** : Expansion internationale, DAO, interface web 🐮
-- **Q2 2026** : Listing $MILK & $CHEESE sur exchange, outils trading 🥛
+### Q2 2025 : Semer les bases 🌱
+- 🚜 Lancement officiel de FrancisBot v1 sur Telegram.
+- 📊 Simulation de trading avec `/portefeuille` (ajouter, voir, stats, retirer, top).
+- 🥛 Utilisation simulée de $MILK dans le bot (déjà accessible à l’achat).
+- 🌍 Création de la communauté $wissMilk sur Telegram et X.
 
-## Installation
-1. Clonez : `git clone https://github.com/eNudimmud/FrancisBot.git`
-2. Dépendances : `pip install python-telegram-bot aiohttp ephem nest_asyncio`
-3. Config : Ajoutez `config.json` avec `TELEGRAM_BOT_TOKEN` et `conseils`
-4. Lancez : `python main.py`
+### Q3 2025 : Labourer le champ 🚜
+- 💰 Lancement du stacking officiel : Utilisez vos $MILK pour gagner des bonus et préparer l’arrivée de $CHEESE.
+- 📈 Ajout de fonctionnalités avancées au bot : alertes de prix, analyses de tendances, et premiers services payants (ex. conseils premium).
+- 🤝 Partenariats avec des projets crypto francophones et des plateformes d’échange.
+- 📣 Campagne marketing : Airdrop de $MILK pour les premiers utilisateurs actifs.
 
-## Commandes
-- `start` - Démarrer
-- `help` - Liste des commandes
-- `prix` - Prix crypto
-- `portefeuille` - Gérer portefeuille
-- `milk` - Voir $MILK/$CHEESE
-- Voir `/help` pour tout
+### Q4 2025 : Première récolte 🌾
+- 🐮 Lancement des NFT Highland : Vaches virtuelles avec boosts (ex. bonus de stacking, accès à des services exclusifs).
+- 🧀 Introduction de $CHEESE : Disponible à l’achat ou comme bonus de stacking de $MILK.
+- 🏆 Concours communautaire : "Top Fermiers" avec récompenses en $MILK et $CHEESE.
+- 🛡️ Audit de sécurité pour respecter les normes FINMA.
 
-## Structure
-- `main.py` : Entrée
-- `config/` : Settings
-- `utils/` : Helpers
-- `commands/` : Commandes
-- `tasks/` : Tâches
+### Q1 2026 : Faire paître les vaches 🐮
+- 🌐 Expansion internationale : Traduction du bot en anglais et autres langues.
+- 📱 Développement d’une interface web pour FrancisBot (via swissmilk.coine.io).
+- 🏛️ Mise en place du DAO pour la gouvernance communautaire (3% des tokens).
+- 📊 Intégration d’outils de trading décentralisé : API pour trading réel via le bot.
 
-## Contribution
-Forkez et proposez vos idées !
+### Q2 2026 : Traire les profits 🥛
+- 🏦 Listing de $MILK et $CHEESE sur un exchange décentralisé (ex. Uniswap, Raydium).
+- 🎉 Événement spécial : "Fête de la Récolte" avec distribution de NFT rares.
+- 🔒 Renouvellement du blocage de liquidité via le DAO.
+- 💸 Services payants complets : Accès à des stratégies de trading avancées et des NFT exclusifs via $MILK et $CHEESE.
 
----
-Par eNudimmud
+## Équipe
+- eNudimmud : Créateur et visionnaire suisse
+
+## Rejoignez-nous
+Rejoignez l’étable de Francis pour cultiver vos talents et récolter $MILK et $CHEESE ! 🚜
