@@ -1,103 +1,59 @@
 # FrancisBot
 
-**FrancisBot** est un bot Telegram créé par [eNudimmud](https://github.com/eNudimmud), un fermier virtuel du canton de Vaud qui aide les utilisateurs à explorer le monde des cryptomonnaies de manière ludique et éducative. Avec Francis, vous pouvez simuler du trading, suivre les prix des cryptos, gérer un portefeuille fictif, et même préparer l’arrivée de $MILK et des NFT Highland !
+Dans un marché sauvage où les loups rôdent, Francis, fermier aguerri du canton de Vaud, veille sur ses bêtes. Avec $wissMilk ($MILK), il transforme chaque opportunité en récolte abondante, optimisant le trading pour ceux qui savent patienter. $MILK, c’est l’or blanc du trading décentralisé, créé par [eNudimmud](https://github.com/eNudimmud). Déjà accessible à l’achat, $MILK prépare l’arrivée de $CHEESE et des NFT Highland !
 
 ## Fonctionnalités
-- **Conseils crypto** : Obtenez des astuces pour le trading classique, degen, la gestion des risques, et plus encore.
-- **Prix en temps réel** : Consultez les prix actuels des cryptomonnaies avec `/prix <symbole>` (ex. `/prix BTC`).
-- **Portefeuille simulé** : Gérez un champ fictif avec `/portefeuille` (ajouter, voir, stats, retirer, top).
-- **$MILK & $CHEESE** : Gagnez du $MILK fictif et stackez-le en $CHEESE pour les futurs services premium.
-- **Phases lunaires** : Découvrez l’impact de la lune sur le marché avec `/lune`.
-- **NFT Highland** : Préparez-vous pour les futurs NFT avec `/nft`.
-
-## Prérequis
-- Python 3.12+
-- Bibliothèques : `python-telegram-bot`, `aiohttp`, `ephem`, `nest_asyncio`
-- Un token Telegram via [BotFather](https://t.me/BotFather)
-
-
-Commandes
-
-
-
-start - Démarrer Francis 
-
-
-
-help - Voir la liste des commandes
-
-
-
-trading - Conseil de trading classique 
-
-
-
-degen - Conseil pour le trading degen 
-
-
-
-risques - Conseil sur la gestion des risques 
-
-
-
-scam - Prévention des arnaques 
-
-
-
-bots - Découvrir les outils et bots 
-
-
-
-conseil - Conseil crypto aléatoire 
-
-
-
-lune - Impact de la lune sur le marché 
-
-
-
-swissmilk - Future tokenisation de Francis 
-
-
-
-prix - Prix actuel d’une crypto (ex. /prix BTC) 
-
-
-
-portefeuille - Gérer ton champ simulé (ajouter, voir, stats, retirer, top)
-
-
-
-milk - Voir ton $MILK et $CHEESE
-
-
-
-stack - Stacker ton $MILK en $CHEESE (simulation)
-
-
-
-nft - Découvrir les futurs NFT Highland
-
-
-Structure du projet
-
-main.py : Point d’entrée du bot
-
-
-
-config/settings.py : Constantes et configuration
-
-
-
-utils/helpers.py : Fonctions utilitaires (API, JSON)
-
-
-
-commands/ : Commandes Telegram (basic, advice, info, portfolio, token)
-
-
-
-tasks/price_update.py : Mise à jour périodique des prix
-
-
-
+- Conseils crypto : `/trading`, `/degen`, `/risques`, etc.
+- Prix en temps réel : `/prix <symbole>` (ex. `/prix BTC`)
+- Portefeuille simulé : `/portefeuille` (ajouter, voir, stats, etc.)
+- $MILK & $CHEESE : Gagnez et stackez avec `/milk`, `/stack`
+- Bonus : `/lune`, `/nft`
+
+## Communauté et valeurs
+Nous sommes une famille ! Rejoignez notre communauté florissante $wissMilk, où chacun s’entraide. Conçu avec la précision suisse, $MILK garantit sécurité et performance, respectant les réglementations de la FINMA.
+
+## Tokenomics
+- **Total Supply** : 1,000,000,000 $MILK
+- **Taxes** : Achat 0%, Vente 3% (1% burn, 2% liquidité), Transfert 0%, Services 0-1%
+- **Distribution** :
+  - 40% (400M) : Écosystème et récompenses
+  - 25% (250M) : Lancement et liquidité
+  - 15% (150M) : Développement et sécurité
+  - 10% (100M) : Équipe et contributions
+  - 7% (70M) : Marketing et partenariats
+  - 3% (30M) : DAO et gouvernance
+- **Liquidité** : 100% bloquée sur 12 mois (renouvelable par DAO)
+
+## Roadmap
+- **Q2 2025** : FrancisBot v1, utilisation simulée $MILK (déjà accessible) 🌱
+- **Q3 2025** : Stacking officiel, services payants, airdrop $MILK 🚜
+- **Q4 2025** : NFT Highland, lancement $CHEESE, concours "Top Fermiers" 🌾
+- **Q1 2026** : Expansion internationale, DAO, interface web 🐮
+- **Q2 2026** : Listing $MILK & $CHEESE sur exchange, outils trading 🥛
+
+## Installation
+1. Clonez : `git clone https://github.com/eNudimmud/FrancisBot.git`
+2. Dépendances : `pip install python-telegram-bot aiohttp ephem nest_asyncio`
+3. Config : Ajoutez `config.json` avec `TELEGRAM_BOT_TOKEN` et `conseils`
+4. Lancez : `python main.py`
+
+## Commandes
+- `start` - Démarrer
+- `help` - Liste des commandes
+- `prix` - Prix crypto
+- `portefeuille` - Gérer portefeuille
+- `milk` - Voir $MILK/$CHEESE
+- Voir `/help` pour tout
+
+## Structure
+- `main.py` : Entrée
+- `config/` : Settings
+- `utils/` : Helpers
+- `commands/` : Commandes
+- `tasks/` : Tâches
+
+## Contribution
+Forkez et proposez vos idées !
+
+---
+Par eNudimmud
