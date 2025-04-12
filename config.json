@@ -1,0 +1,40 @@
+{
+    "TELEGRAM_BOT_TOKEN": "7410544336:AAGvDWABoZ-arVUC9dmJDIYZjxndr5FAqZI",
+    "DAILY_PRICES_FILE": "prix/daily_prices.json",
+    "PORTFOLIO_DIR": "portefeuilles", 
+    "MILK_FILE": "prix/milk.json", 
+    "CHEESE_FILE": "prix/cheese.json", 
+    "COINGECKO_API": "https://api.coingecko.com/api/v3/simple/price?ids={}&vs_currencies=usd",
+    "conseils": {
+        "trading": [
+            "📈 *HODL* : Acheter et conserver à long terme, comme un bon vin qui se bonifie avec le temps. 🍷",
+            "📉 *Scalping* : Trades rapides sur de petites variations de prix, comme traire une vache pour chaque goutte de lait. 🥛",
+            "🌾 *Swing Trading* : Exploiter les cycles du marché, comme planter et récolter en fonction des saisons."
+        ],
+        "degen": [
+            "⚡ *Surveille les tendances sur X avec LunarCrush et AssetDash* : La hype est ton meilleur indicateur !",
+            "🤖 *Utilise un bot comme ToxiSolBot ou Axiom pour exécuter tes ordres automatiquement*.",
+            "💥 *Arbitrage entre exchanges* : Si Binance vend moins cher qu’Uniswap, achète ici et vends là-bas !"
+        ],
+        "risques": [
+            "🛑 *Ne jamais investir plus que ce que tu es prêt à perdre*.",
+            "🔐 *Stocke tes cryptos sur un cold wallet comme Ledger ou Metamask*.",
+            "📉 *Garde toujours 10-20% de ton capital en stablecoin pour les imprévus*."
+        ],
+        "scam": [
+            "⚠️ *Méfie-toi des projets promettant des rendements impossibles.*",
+            "🧐 *Toujours vérifier le contrat sur Token Sniffer avant d’acheter un shitcoin*.",
+            "🛡️ *Ne jamais partager ta seed phrase. Même Francis ne la demande pas !*"
+        ],
+        "bots": [
+            "🤖 *Utilise Axiom ou Stoic Terminal pour automatiser tes stratégies de trading.*",
+            "📡 *ToxiSolBot peut détecter les nouvelles tendances crypto en temps réel !*",
+            "📱 *Tout ça peut être fait depuis ton smartphone avec Termux, pas besoin de PC !*"
+        ],
+        "conseil": [
+            "📈 *HODL* : Acheter et conserver à long terme, comme un bon vin qui se bonifie avec le temps. 🍷",
+            "🛑 *Ne jamais investir plus que ce que tu es prêt à perdre*.",
+            "📉 *Diversifie ton portefeuille* : Ne mets pas tout dans un seul projet, répartis entre plusieurs cryptos solides."
+        ]
+    }
+}
